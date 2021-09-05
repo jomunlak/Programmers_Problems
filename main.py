@@ -1,4 +1,5 @@
-import bisect
 
-a = [10,20,30,40,50,60]
-print(bisect.bisect_left(a, 45))
+
+name = "ABSFJTBIFP"
+for i in range(10):
+  print(min((ord(name[i]) - ord('A')), 26 - (ord(name[i])-ord('A'))))
